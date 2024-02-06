@@ -1,0 +1,57 @@
+/* Custom Styles */
+
+/* Set a background image for the hero section */
+#hero {
+    background-image: url('images/background.jpg');
+    background-size: cover;
+    background-position: center;
+    color:yellow;
+    font-style: italic;
+    padding: 100px 0;
+}
+
+/* Style the About, Programs, and Contact sections */
+section {
+    background-image: url('images/backrouuung.jpeg');
+    background-size: cover;
+    background-position: center;
+    color:black;
+    font-size: 20px;
+    padding: 100px 0;
+     
+}
+h2{
+    font-size: 50px;
+}
+h3{
+    font-style: italic;
+    color: aqua;
+}
+li {
+    font-size: 30px;
+    font-style: italic;
+    font-weight: bolder;
+    color: black;
+
+}
+button{
+    background-color:deepskyblue;
+    border-radius: 10px;
+    padding: 5px;
+
+}
+p{
+    font-size: 20px;
+    padding: 50px;
+    font-weight: bolder;
+    font-style: italic;
+    color: black;
+}
+img {
+    padding: 20px;
+}
+
+/* Style the footer */
+footer {
+    background-color: #f8f9fa;
+}
