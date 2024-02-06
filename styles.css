@@ -53,7 +53,7 @@ button{
 p{
     font-size: 20px;
     padding: 50px;
-    font-weight: lighter;
+    font-weight: bold;
     font-style: italic;
     color: black;
 }
