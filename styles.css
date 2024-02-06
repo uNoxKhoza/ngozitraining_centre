@@ -35,9 +35,10 @@ li {
 
 }
 button{
-    background-color:deepskyblue;
+    background-color:dodgerblue;
     border-radius: 10px;
     padding: 5px;
+    border-spacing: 50px;
 
 }
 p{
