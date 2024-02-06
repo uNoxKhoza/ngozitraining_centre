@@ -11,7 +11,7 @@
 }
 
 /* Style the About, Programs, and Contact sections */
-section {
+section About{
     background-image: url('images/backrouuung.jpeg');
     background-size: cover;
     background-position: center;
@@ -19,6 +19,15 @@ section {
     font-size: 20px;
     padding: 100px 0;
      
+}
+section Programs{
+
+}
+section Services {
+
+}
+section Contacts {
+    
 }
 h2{
     font-size: 50px;
@@ -30,7 +39,7 @@ h3{
 li {
     font-size: 30px;
     font-style: italic;
-    font-weight: bolder;
+    font-weight: lighter;
     color: black;
 
 }
@@ -44,7 +53,7 @@ button{
 p{
     font-size: 20px;
     padding: 50px;
-    font-weight: bolder;
+    font-weight: lighter;
     font-style: italic;
     color: black;
 }
