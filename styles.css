@@ -2,13 +2,32 @@
 
 /* Set a background image for the hero section */
 #hero {
-    background-image: url('images/background.jpg');
+    background-image: url('images/20170120_101821.jpg');
     background-size: cover;
     background-position: center;
     color:yellow;
     font-style: italic;
     padding: 100px 0;
 }
+#about {
+    /* background-image: url('images/car.jpg'); */
+    background-color: yellow;
+    background-size: cover;
+    background-position: center;
+    color: yellow;
+    font-style: italic;
+    padding: 100px 0;
+}
+#services{
+    background-image: url('images/mine.jpeg');
+    background-size: cover;
+    background-position: center;
+    color: yellow;
+    font-style: italic;
+    padding: 100px 0;
+}
+
+
 
 /* Style the About, Programs, and Contact sections */
 section About{
@@ -32,11 +51,11 @@ li {
     font-size: 30px;
     font-style: italic;
     font-weight: bold;
-    color: black;
+    color: yellow;
 
 }
 button{
-    background-color:dodgerblue;
+    background-color:white;
     border-radius: 10px;
     padding: 5px;
     border-spacing: 50px;
@@ -45,9 +64,9 @@ button{
 p{
     font-size: 20px;
     padding: 50px;
-    font-weight: bold;
+    font-weight:light;
     font-style: italic;
-    color: black;
+    color:black;
 }
 img {
     padding: 20px;
