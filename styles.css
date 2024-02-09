@@ -2,12 +2,22 @@
 
 /* Set a background image for the hero section */
 #hero {
-    background-image: url('images/20170120_101821.jpg');
+    background-image: url('images/Screenshot\ from\ 2024-02-06\ 14-09-02.png');
     background-size: cover;
     background-position: center;
+    background-repeat: no-repeat;
     color:yellow;
     font-style: normal;
     padding: 100px 0;
+    filter: brightness(100%);
+ 
+}
+.btn {
+    background-color: skyblue;
+    color: grey;
+}
+.nav-link {
+    font-size: 25px;
 }
 
 #about {
@@ -21,23 +31,31 @@
     padding-top: 0%;
 }
 #services{
-    background-image: url('images/mine.jpeg');
+    background-image: url('images/background.jpg');
     background-size: cover;
-    background-position: center;
+    /* background-position: center; */
+    background-repeat: no-repeat;
     font-style: normal;
     font-size: 30pc;
+    padding: 100px;
     padding-top: 0%;
-    padding-bottom: 20px;
+    filter: brightness(150%);
 }
 
 #programs {
-    background-image: url('images/background.jpg');
+    background-image: url('images/mine.jpeg');
+    background-repeat: no-repeat;
+    background-size: cover;
+
     padding :10px;
     
 }
 #contact{
-    background-image: url('images/Screenshot\ from\ 2024-02-06\ 14-09-02.png');
-    /* background-size: cover; */
+    /* background-image: url('images/car.jpg'); */
+    background-color: skyblue;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
 }
 
 
@@ -81,10 +99,10 @@ h3{
     
 }
 li {
-    font-size: 20px;
+    font-size: 25px;
     font-style: normal;
     font-weight: bolder;
-    color: skyblue;
+    color:skyblue;
 
 }
 button{
@@ -98,10 +116,13 @@ p{
     font-size: 20px;
     padding: 50px;
     font-weight:light;
-    font-style: italic;
+    font-style: normal;
     color:black;
 }
 
 footer {
     background-color: #f8f9fa;
+}
+.btn btn-primary {
+    background-color: aqua;
 }
