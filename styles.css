@@ -25,18 +25,19 @@
     background-size: cover;
     background-position: center;
     font-style: normal;
+    font-size: 30pc;
     padding-top: 0%;
     padding-bottom: 20px;
 }
 
 #programs {
-    background-image: url('images/mine.jpeg');
+    background-image: url('images/background.jpg');
     padding :10px;
     
 }
 #contact{
     background-image: url('images/Screenshot\ from\ 2024-02-06\ 14-09-02.png');
-    background-size: cover;
+    /* background-size: cover; */
 }
 
 
@@ -59,9 +60,10 @@ h1{
 }
 h2{
     font-size: 50px;
+    font-weight: bold;
     text-align: center;
-    background-color:yellow;
-    color: white;
+    background-color:darkgreen;
+    color:black;
 }
 h5 {
     color:skyblue;
@@ -80,7 +82,7 @@ h3{
 }
 li {
     font-size: 20px;
-    font-style: italic;
+    font-style: normal;
     font-weight: bolder;
     color: skyblue;
 
