@@ -6,25 +6,33 @@
     background-size: cover;
     background-position: center;
     color:yellow;
-    font-style: italic;
+    font-style: normal;
     padding: 100px 0;
 }
+
 #about {
     /* background-image: url('images/car.jpg'); */
-    background-color: yellow;
+    background-color: skyblue;
     background-size: cover;
     background-position: center;
-    color: yellow;
-    font-style: italic;
-    padding: 100px 0;
+    font-style: normal;
+    font-weight: bold;
+    padding-bottom: 0%;
+    padding-top: 0%;
 }
 #services{
     background-image: url('images/mine.jpeg');
     background-size: cover;
     background-position: center;
-    color: yellow;
-    font-style: italic;
-    padding: 100px 0;
+    font-style: normal;
+    padding-top: 0%;
+    padding-bottom: 20px;
+}
+
+#programs {
+    background-image: url('images/mine.jpeg');
+    padding :10px;
+    
 }
 
 
@@ -40,22 +48,40 @@ section About{
      
 }
 
+h1{
+    font-size: 50px;
+    font-weight: bolder;
+}
 h2{
     font-size: 50px;
+    text-align: center;
+    background-color:grey;
+    color: white;
+}
+h5 {
+    color:darkblue;
+    font-weight: bolder;
+    font-size: 25px;
+} 
+h6 {
+    font-weight: bolder;
+    font-size: 20px;
 }
 h3{
     font-style: italic;
-    color: aqua;
+    color: white;
+    font-weight: bolder;
+    
 }
 li {
-    font-size: 30px;
+    font-size: 20px;
     font-style: italic;
-    font-weight: bold;
-    color: yellow;
+    font-weight: bolder;
+    color: skyblue;
 
 }
 button{
-    background-color:white;
+    background-color:grey;
     border-radius: 10px;
     padding: 5px;
     border-spacing: 50px;
@@ -68,11 +94,7 @@ p{
     font-style: italic;
     color:black;
 }
-img {
-    padding: 20px;
-}
 
-/* Style the footer */
 footer {
     background-color: #f8f9fa;
 }
