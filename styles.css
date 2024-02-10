@@ -5,7 +5,7 @@
     background-image: url('images/Screenshot\ from\ 2024-02-06\ 14-09-02.png');
     background-size: cover;
     background-position: center;
-    background-repeat: no-repeat;
+    background-repeat: repeat;
     color:yellow;
     font-style: normal;
     padding: 100px 0;
@@ -20,6 +20,9 @@
     font-size: 25px;
 }
 
+
+
+
 #about {
     /* background-image: url('images/car.jpg'); */
     background-color: skyblue;
@@ -33,11 +36,12 @@
 #services{
     background-image: url('images/background.jpg');
     background-size: cover;
-    /* background-position: center; */
+    background-position: center;
     background-repeat: no-repeat;
     font-style: normal;
-    font-size: 30pc;
+    font-size: 30px;
     padding: 100px;
+    padding-bottom: 10%;
     padding-top: 0%;
     filter: brightness(150%);
 }
@@ -51,11 +55,12 @@
     
 }
 #contact{
-    /* background-image: url('images/car.jpg'); */
+    
     background-color: skyblue;
     background-size: cover;
-    background-repeat: no-repeat;
-    background-position: center;
+    font-size: 30px;
+    font-weight: bolder;
+    
 }
 
 
@@ -98,12 +103,16 @@ h3{
     font-weight: bolder;
     
 }
-li {
+ul {
     font-size: 25px;
     font-style: normal;
     font-weight: bolder;
     color:skyblue;
-
+}
+li {
+    font-size: 25px;
+    font-weight: bolder;
+    color: skyblue;
 }
 button{
     background-color:grey;
@@ -113,7 +122,7 @@ button{
 
 }
 p{
-    font-size: 20px;
+    font-size: 25px;
     padding: 50px;
     font-weight:light;
     font-style: normal;
@@ -124,5 +133,5 @@ footer {
     background-color: #f8f9fa;
 }
 .btn btn-primary {
-    background-color: aqua;
+    background-color: blue;
 }
